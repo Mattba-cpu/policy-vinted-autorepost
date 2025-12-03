@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - Vinted Auto Reposter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        h3 {
+            color: #667eea;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .highlight strong {
+            color: #856404;
+        }
+        .info-box {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #2196f3;
+            margin: 20px 0;
+        }
+        .info-box strong {
+            color: #0d47a1;
+        }
+        .contact {
+            background: #f0f0f0;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 14px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Politique de confidentialité</h1>
+        <p class="subtitle">Vinted Auto Reposter - Extension Chrome</p>
+        <p class="subtitle"><strong>Dernière mise à jour :</strong> 3 décembre 2024</p>
+
+        <div class="highlight">
+            <strong>En résumé :</strong> Vinted Auto Reposter ne collecte, ne stocke et ne transmet AUCUNE donnée personnelle à des serveurs externes. Toutes vos données restent locales dans votre navigateur.
+        </div>
+
+        <h2>📊 Collecte de données</h2>
+        <p>
+            <strong>Vinted Auto Reposter ne collecte AUCUNE donnée personnelle.</strong> L'extension fonctionne entièrement en local dans votre navigateur et ne transmet aucune information à des serveurs tiers.
+        </p>
+
+        <h2>💾 Données stockées localement</h2>
+        <p>L'extension stocke uniquement les informations suivantes <strong>localement dans votre navigateur</strong> via l'API Chrome Storage :</p>
+        <ul>
+            <li><strong>Préférences utilisateur :</strong>
+                <ul>
+                    <li>Intervalle de repost automatique (ex: toutes les 4 heures)</li>
+                    <li>Délai entre chaque repost (ex: 5 secondes)</li>
+                    <li>État d'activation du repost automatique (activé/désactivé)</li>
+                </ul>
+            </li>
+            <li><strong>Statistiques locales :</strong>
+                <ul>
+                    <li>Nombre d'annonces détectées</li>
+                    <li>Nombre d'annonces repostées aujourd'hui</li>
+                    <li>Date du dernier repost</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="info-box">
+            <strong>Important :</strong> Ces données ne quittent JAMAIS votre appareil et sont supprimées définitivement lorsque vous désinstallez l'extension.
+        </div>
+
+        <h2>🔑 Permissions utilisées et leur justification</h2>
+
+        <h3>1. Accès aux domaines Vinted (Host Permissions)</h3>
+        <p><strong>Domaines concernés :</strong> vinted.fr, vinted.com, vinted.be, vinted.nl, vinted.de, vinted.es, vinted.it, etc.</p>
+        <p><strong>Pourquoi :</strong> Pour détecter vos annonces sur votre profil et interagir avec l'API Vinted pour les republier.</p>
+        <p><strong>Utilisation :</strong> L'extension lit uniquement les informations publiques de vos annonces (titre, ID) et envoie des requêtes à l'API Vinted pour les republier.</p>
+
+        <h3>2. storage</h3>
+        <p><strong>Pourquoi :</strong> Pour sauvegarder vos préférences et statistiques localement dans votre navigateur.</p>
+        <p><strong>Utilisation :</strong> Stockage 100% local. Aucune donnée n'est transmise à l'extérieur.</p>
+
+        <h3>3. alarms</h3>
+        <p><strong>Pourquoi :</strong> Pour programmer les reposts automatiques à intervalles réguliers.</p>
+        <p><strong>Utilisation :</strong> Création d'alarmes Chrome pour déclencher automatiquement le repost selon votre configuration.</p>
+
+        <h3>4. activeTab</h3>
+        <p><strong>Pourquoi :</strong> Pour détecter si vous êtes sur une page Vinted quand vous cliquez sur l'extension.</p>
+        <p><strong>Utilisation :</strong> Vérifie uniquement l'URL de l'onglet actif pour afficher les bonnes informations dans le popup.</p>
+
+        <h3>5. scripting</h3>
+        <p><strong>Pourquoi :</strong> Pour injecter du code dans les pages Vinted afin de détecter vos annonces et ajouter des éléments visuels.</p>
+        <p><strong>Utilisation :</strong> Injection de scripts uniquement sur les pages Vinted pour :
+            <ul>
+                <li>Détecter vos annonces</li>
+                <li>Ajouter des cases à cocher pour la sélection</li>
+                <li>Afficher des indicateurs visuels après un repost</li>
+            </ul>
+        </p>
+
+        <h2>🌐 Communication réseau</h2>
+        <p>L'extension communique <strong>uniquement</strong> avec :</p>
+        <ul>
+            <li><strong>Les serveurs Vinted</strong> via leur API officielle pour republier vos annonces</li>
+        </ul>
+        <p>Aucune donnée n'est envoyée à d'autres serveurs, services d'analytics ou tiers.</p>
+
+        <h2>🔐 Sécurité</h2>
+        <p>Nous prenons la sécurité au sérieux :</p>
+        <ul>
+            <li>Utilisation de l'API officielle Vinted</li>
+            <li>Pas de collecte de mots de passe ou identifiants</li>
+            <li>Code source transparent et vérifiable</li>
+            <li>Respect des standards de sécurité Chrome</li>
+            <li>Utilisation du Manifest V3 (dernière version sécurisée)</li>
+        </ul>
+
+        <h2>👤 Vos droits</h2>
+        <p>Vous avez le contrôle total sur vos données :</p>
+        <ul>
+            <li><strong>Consulter :</strong> Vos données sont accessibles via les DevTools Chrome (chrome://extensions/)</li>
+            <li><strong>Modifier :</strong> Changez vos préférences à tout moment via l'interface de l'extension</li>
+            <li><strong>Supprimer :</strong> Désinstallez l'extension pour supprimer toutes les données locales</li>
+            <li><strong>Désactiver :</strong> Désactivez l'extension à tout moment sans perdre vos paramètres</li>
+        </ul>
+
+        <h2>👶 Âge minimum</h2>
+        <p>Cette extension est destinée aux utilisateurs de Vinted, qui doivent avoir au moins 18 ans (ou l'âge légal dans votre pays) pour utiliser la plateforme Vinted.</p>
+
+        <h2>🔄 Modifications de cette politique</h2>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité occasionnellement. En cas de modification importante, nous :</p>
+        <ul>
+            <li>Mettrons à jour la date de "Dernière mise à jour" en haut de cette page</li>
+            <li>Vous informerons via une notification dans l'extension</li>
+        </ul>
+
+        <h2>⚖️ Conformité légale</h2>
+        <p>Cette extension est conforme :</p>
+        <ul>
+            <li><strong>RGPD</strong> (Règlement Général sur la Protection des Données) - Union Européenne</li>
+            <li><strong>Chrome Web Store Developer Program Policies</strong></li>
+            <li><strong>Conditions d'utilisation de Vinted</strong></li>
+        </ul>
+
+        <h2>📞 Contact</h2>
+        <div class="contact">
+            <p>Pour toute question concernant cette politique de confidentialité ou vos données :</p>
+            <p>
+                <strong>Email :</strong> <a href="mailto:votre.email@example.com">votre.email@example.com</a><br>
+                <em>(Remplacez par votre vrai email)</em>
+            </p>
+            <p style="margin-top: 20px;">
+                <strong>Support :</strong> <a href="https://github.com/votre-username/vinted-reposter/issues" target="_blank">GitHub Issues</a><br>
+                <em>(Optionnel : Si vous créez un repo GitHub)</em>
+            </p>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Vinted Auto Reposter. Tous droits réservés.</p>
+            <p>Cette extension n'est pas affiliée à Vinted.</p>
+        </footer>
+    </div>
+</body>
+</html>
